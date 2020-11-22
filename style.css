@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+}
+
+#nav {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 23px;
+    margin-right: 70px;
+
+}
+
+#nav a {
+    margin-right: 15px;
+    font-family: Arial;
+    font-size: 13px;
+}
+
+#nav a.topimage {
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    border-radius: 10px;
+}
+
+#middle {
+    margin-top: 114px;
+}
+
+#logo {
+    text-align: center;
+}
+
+#searchbarcontainer {
+    text-align: center;
+    margin-top: 22px;
+}
+
+#searchbar {
+    padding-top: 14px;
+    padding-bottom: 14px;
+    outline: 0;
+    width: 477px;
+    border-radius: 20px;
+    border: 1px solid #fcdbdb
+}
